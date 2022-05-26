@@ -23,7 +23,7 @@ int Tentative::getNbessais(){
 bool Tentative::controlesaisie(string mot){
     bool test=true;
     int t;
-    for (int i=1;i<7;i++){
+    for (int i=1;i<10;i++){
 
         if (isalpha(mot[i])==false){test=false;break;}
     }

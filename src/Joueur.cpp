@@ -21,9 +21,9 @@ string Joueur::getName(){
 	return name ;
 }
 void Joueur::setScore(int nb){
-	for (int i =1;i<=7;i++) {
+	for (int i =1;i<=10;i++) {
 		if (nb==i)
-		score=+7-i+1;
+		score=+10-i+1;
 	}
 
 }
